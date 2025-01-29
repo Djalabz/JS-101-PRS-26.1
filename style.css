@@ -1,0 +1,12 @@
+.ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 90px;
+    background-color: brown;
+    position: absolute;
+    left: 120px;
+}
+
+h1 {
+    text-align: center;
+}
