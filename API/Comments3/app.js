@@ -1,9 +1,6 @@
 
 const section = document.querySelector(".comments")
 
-// Lien pour l'API monstre de poche
-let apiLink = "https://pokebuildapi.fr/api/v1/pokemon"
-
 // Lien pour l'API de faux commentaires
 let commentAPI = "https://jsonplaceholder.typicode.com/comments"
 
