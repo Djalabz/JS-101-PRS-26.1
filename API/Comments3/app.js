@@ -9,7 +9,7 @@ let commentAPI = "https://jsonplaceholder.typicode.com/comments"
 // Je vais faire une requete de type GET vers mon API de commentaires 
 fetch(commentAPI)
 // Ici pour le premier then on covertit la réponse de l'API depuis JSON
-.then(res => res.json()) // Ici res => res.json() est une fonction flechée
+.then(retourDeLAPI => retourDeLAPI.json()) // Ici res => res.json() est une fonction flechée
 // Ici pour le 2eme then on boucle dans le tableau de comments "data"
 .then(data => {
     // Pour chaque élément de data on vient créér des éléments HTML qui 
@@ -40,4 +40,6 @@ fetch(commentAPI)
         section.appendChild(wrapper)
     })
 })
-.catch(error => console.log(error))
+.catch(error => console.log("erreur : " + error))
+
+
