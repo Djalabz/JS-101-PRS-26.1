@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(salmon, orange);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.game-wrapper {
+    border: solid 2px black;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+
+.choices {
+    position: absolute;
+    bottom: 2rem;
+}
+
+.choices img {
+    cursor: pointer;
+}
+
+.results {
+    position: absolute;
+    top: 2rem;
+}
+
+.results div {
+    font-size: 1.5rem;
+    margin-bottom: 1.3rem;
+    display: flex;
+    align-items: center;
+} 
+
+.play {
+    font-size: 1.5rem;
+    color: white;
+    padding : 0.2rem 0.8rem;
+    background-color: tomato;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.player-choice, .computer-choice {
+    font-weight: bold;
+}

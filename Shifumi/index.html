@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shifumi</title>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Mon jeu de shifumi en JS</h1>
+
+    <!-- Le conteneur pour le jeu -->
+    <div class="game-wrapper">
+
+        <div class="results">
+            <div class="result">Résultat : </div>
+            <div class="player">Joueur : </div>
+            <div class="computer">Ordinateur : </div>
+        </div>
+
+        <!-- Bouton pour lancer le jeu -->
+        <button class="play">Jouer</button>
+
+        <!-- Nos boutons pour choisir entre shi fu et mi avec chacun un id pour les identifier -->
+        <div class="choices">
+            <img id="leafIcon" src="./assets/leaf.png" alt="feuille" data-elem="feuille">
+            <img id="scissorIcon" src="./assets/scissors.png" alt="ciseaux" data-elem="ciseaux">
+            <img id="stoneIcon" src="./assets/stone.png" alt="pierre" data-elem="pierre">
+        </div>
+
+    </div>
+
+</body>
+</html>
